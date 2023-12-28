@@ -57,7 +57,8 @@ function login(){
 
     if(formValidation() ){
         if(checkInput()){
-            window.location.href='./home.html';
+            // window.location.href='./home.html';
+         window.location.pathname ='home.html';
             clearLoginForm()
         }
         else{
